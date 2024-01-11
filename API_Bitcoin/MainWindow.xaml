@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:API_Bitcoin"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Background="Brown">
+        Title="MainWindow" Height="450" Width="900">
+    <Grid Background="#586BA4">
         
             <Grid.RowDefinitions>
                 <RowDefinition Height="3*"/>
@@ -23,37 +23,45 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="1" Width="150" Height="130" Background="DarkRed" Name="BTN_Tendance" Click="BTN_Tendance_Click">
+                <Button Grid.Column="1" Width="150" Height="130" Background="#324376" Name="BTN_Tendance" Click="BTN_Tendance_Click">
                     <StackPanel Orientation="Vertical">
                         <Image Height="80" Width="80" Source="D:\Mirza ALJIC\SUBRAMANI\C#\API_Bitcoin\API_Bitcoin\Ressources\Image\tendance.png"/>
                         <Label Content="Tendance" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Button>
-
-                <Button Grid.Column="2" Width="150" Height="130" Background="DarkRed" Name="BTN_IndexFear" Click="BTN_IndexFear_Click">
+    
+                 <Button Grid.Column="2" Width="150" Height="130" Background="#324376" Name="BTN_IndexFear" Click="BTN_IndexFear_Click">
                     <StackPanel Orientation="Vertical">
                         <Image Height="80" Width="80" Source="D:\Mirza ALJIC\SUBRAMANI\C#\API_Bitcoin\API_Bitcoin\Ressources\Image\index_fear2.png"/>
                         <Label Content="Index Fear" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Button>
 
-                <Button Grid.Column="0" Width="150" Height="130" Background="DarkRed" Name="BTN_Acceuil" Click="BTN_Acceuil_Click" >
+                 <Button Grid.Column="0" Width="150" Height="130" Background="#324376" Name="BTN_Crypto" Click="BTN_Crypto_Click" >
                     <StackPanel Orientation="Vertical">
-                        <Image Height="80" Width="80" Source="D:\Mirza ALJIC\SUBRAMANI\C#\API_Bitcoin\API_Bitcoin\Ressources\Image\home-icon.png"/>
+                        <Image Height="80" Width="80" Source="D:\Mirza ALJIC\SUBRAMANI\C#\API_Bitcoin\API_Bitcoin\Ressources\Image\btn_crypto.png"/>
                         <Label Content="Acceuil" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Button>
 
-            </Grid>
+                <Button Grid.Column="3" Width="150" Height="130" Background="#324376" Name="BTN_Courbe" Click="BTN_Courbe_Click" >
+                     <StackPanel Orientation="Vertical">
+                     <Image Height="80" Width="80" Source="D:\Mirza ALJIC\SUBRAMANI\C#\API_Bitcoin\API_Bitcoin\Ressources\Image\courbe.png"/>
+                     <Label Content="Courbe" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+        </Grid>
             
             <!--*********************************************************** Container ************************************-->
             <Grid Grid.Row="1" Grid.Column="0" Name="Windows_Container">
+            <Image Source="D:\Mirza ALJIC\SUBRAMANI\C#\API_Bitcoin\API_Bitcoin\Ressources\Image\crypto2.png"/>
 
-            </Grid>
+        </Grid>
             <!--*********************************************************** Fin Container ************************************-->
         <!--*********************************************************** Container ************************************-->
         <Grid Grid.Row="2" Grid.Column="0" Name="grid_Footer">
-
+            <Label Content="API Crypto" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" />
         </Grid>
         <!--*********************************************************** Fin Container ************************************-->
 

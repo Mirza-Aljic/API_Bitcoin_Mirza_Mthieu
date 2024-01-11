@@ -5,8 +5,69 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:API_Bitcoin.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="SkyBlue">
-            
+             d:DesignHeight="450" d:DesignWidth="900">
+    <Grid Background="#F5DD90">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Content="Top 1 " VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <Label Content="Top 3 " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+
+        </Grid>
+
+
+        <Grid Grid.Row="0" Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <Label Content="Top 2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <Label Content="Top 4 " HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+
+        </Grid>
+
+
+
+
     </Grid>
 </UserControl>

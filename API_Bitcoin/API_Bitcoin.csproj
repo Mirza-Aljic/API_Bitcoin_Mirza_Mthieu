@@ -94,6 +94,9 @@
     <Compile Include="View\PageCrypto.xaml.cs">
       <DependentUpon>PageCrypto.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Page_Graphique.xaml.cs">
+      <DependentUpon>Page_Graphique.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Page_Index.xaml.cs">
       <DependentUpon>Page_Index.xaml</DependentUpon>
     </Compile>
@@ -113,6 +116,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\PageCrypto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Page_Graphique.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
