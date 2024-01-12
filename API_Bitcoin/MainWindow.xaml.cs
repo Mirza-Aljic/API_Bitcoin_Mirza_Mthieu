@@ -28,12 +28,6 @@ namespace API_Bitcoin
 
 
 
-        private void BTN_Tendance_Click(object sender, RoutedEventArgs e)
-        {
-            Windows_Container.Children.Clear();
-            Page_Tendance tendance = new Page_Tendance();
-            Windows_Container.Children.Add(tendance);
-        }
 
         private void BTN_IndexFear_Click(object sender, RoutedEventArgs e)
         {
@@ -56,6 +50,13 @@ namespace API_Bitcoin
             Windows_Container.Children.Clear();
             Page_Graphique graphique = new Page_Graphique();
             Windows_Container.Children.Add(graphique);
+        }
+
+        private void BTN_Information_Click(object sender, RoutedEventArgs e)
+        {
+            Windows_Container.Children.Clear();
+            Page_Tendance information = new Page_Tendance();
+            Windows_Container.Children.Add(information);
         }
     }
 }

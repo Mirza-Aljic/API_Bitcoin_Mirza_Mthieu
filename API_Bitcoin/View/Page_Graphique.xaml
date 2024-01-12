@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:API_Bitcoin.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="800" d:DesignWidth="1200">
     
     <Grid Background="AliceBlue">
         <Grid.ColumnDefinitions>
@@ -24,7 +24,7 @@
                 <RowDefinition Height="8*"/>
             </Grid.RowDefinitions>
 
-            <Label Content="Bitcoin :" Height="50" Width="200" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Content="Bitcoin :" Height="50" Width="200" FontSize="17" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <Image Name="Img_Courbe1" Width="350" Height="150" Grid.Row="1"/>
         </Grid>
 
@@ -34,7 +34,7 @@
                 <RowDefinition Height="8*"/>
             </Grid.RowDefinitions>
 
-            <Label Content="Ethereum :" Height="50" Width="200" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <Label Content="Ethereum :" Height="50" Width="200" FontSize="17" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <Image Name="Img_Courbe2" Width="350" Height="150" Grid.Row="1"/>
         </Grid>
 
@@ -43,7 +43,7 @@
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="8*"/>
             </Grid.RowDefinitions>
-            <Label Content="XRP :" Height="50" Width="200" FontSize="20" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            <Label Content="XRP :" Height="50" Width="200" FontSize="17" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
            
             <Image Name="Img_Courbe3" Width="350" Height="150" Grid.Row="1"/>
             
@@ -55,7 +55,7 @@
                 <RowDefinition Height="8*"/>
             </Grid.RowDefinitions>
             
-            <Label Content="Solana :" Height="50" Width="200" FontSize="20" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            <Label Content="Solana :" Height="50" Width="200" FontSize="17" HorizontalAlignment="Center"  VerticalAlignment="Top"/>
 
             <Image Name="Img_Courbe4" Width="350" Height="150" Grid.Row="1"/>
 

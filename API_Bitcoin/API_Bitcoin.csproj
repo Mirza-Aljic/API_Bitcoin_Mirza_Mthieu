@@ -161,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ressources\Image\" />
+    <Folder Include="Ressources\Video\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

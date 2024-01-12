@@ -78,7 +78,7 @@ namespace API_Bitcoin.View
                 image.Source = bitmapImage;
 
                 // Ajoutez l'image à votre interface utilisateur (par exemple, à une pile d'images)
-                Img_Courbe1.Children.Add(image);
+               // Img_Courbe1.Children.Add(image);
             }
         }
 
